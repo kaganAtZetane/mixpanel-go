@@ -1,4 +1,4 @@
-package mixpanel
+package mixpanelv2
 
 import (
 	"io"

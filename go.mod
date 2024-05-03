@@ -1,4 +1,4 @@
-module github.com/mixpanel/mixpanel-go
+module github.com/kaganAtZetane/mixpanel-go
 
 go 1.18
 

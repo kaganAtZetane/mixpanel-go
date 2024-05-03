@@ -4,6 +4,7 @@ go 1.18
 
 require (
 	github.com/jarcoal/httpmock v1.3.1
+	github.com/mixpanel/mixpanel-go v1.2.1
 	github.com/stretchr/testify v1.8.4
 )
 

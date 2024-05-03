@@ -54,6 +54,7 @@ func (m *ApiClient) Track(ctx context.Context, events []*Event) error {
 
 	query := url.Values{}
 	query.Add("verbose", "1")
+	query.Add("ip", "1")
 
 	requestBody, err := makeRequestBody(events, jsonPayload, None)
 	if err != nil {
